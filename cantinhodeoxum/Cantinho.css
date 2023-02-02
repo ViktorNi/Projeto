@@ -22,8 +22,21 @@ padding-top: 1em;
 min-width: 350px;
 }
 
-.iframe{
-border-radius: 8px;
+div.video {
+    border-radius: 8px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    border-radius: 8px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 header h1 {
@@ -61,7 +74,7 @@ color: var(--cor01);
 background-color: aliceblue;
 padding: 10px;
 box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-transition-duration: 0.2s;
+transition-duration: 0.5s;
 }
 
 main {
@@ -87,7 +100,6 @@ main a {
 
 main a:hover {
     color: var(--cor01);
-    text-decoration: underline;
     font-weight: italic;
 }
 
