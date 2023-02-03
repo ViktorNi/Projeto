@@ -9,9 +9,8 @@
 }
 
 body {
-background-image: url('https://sm.ign.com/t/ign_br/news/t/this-is-th/this-is-the-stunning-first-image-of-the-cosmos-from-the-jame_qqzx.h960.jpg');
-background-position: center center;
-background-repeat: no-repeat;
+background: black url('https://sm.ign.com/t/ign_br/news/t/this-is-th/this-is-the-stunning-first-image-of-the-cosmos-from-the-jame_qqzx.h960.jpg') center center no-repeat fixed;
+background-size: cover;
 }
 
 header {
