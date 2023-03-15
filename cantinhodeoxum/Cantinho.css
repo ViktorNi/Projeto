@@ -1,5 +1,6 @@
 * {
- margin: 0px;
+padding: 0px;
+margin: 0px;
 }
 
 :root {
@@ -22,21 +23,22 @@ padding-top: 1em;
 min-width: 350px;
 }
 
+
 div.video {
-    border-radius: 8px;
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%;
-    position: relative;
+border-radius: 8px;
+margin: 0px -20px 30px -20px;
+padding: 20px;
+padding-bottom: 58%;
+position: relative;
 }
 
 div.video > iframe {
-    border-radius: 8px;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+border-radius: 8px;
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
 }
 
 header h1 {
@@ -57,7 +59,6 @@ padding-bottom: 1em;
 
 nav {
 background-color: var(--cor01);
-padding:1px;
 padding: 10px;
 box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
@@ -81,8 +82,6 @@ main {
 background-color: white;
 min-width: 100px;
 max-width: 650px;
-text-align: justify;
-min-width: 200px;
 max-width: 700px;
 margin: auto;
 padding: 20px;
@@ -110,16 +109,16 @@ text-align: center;
 }
 
 footer a {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .logo {
-    width: 20px;
-    height: 20px;
+width: 20px;
+height: 20px;
 }
 
 footer a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 
