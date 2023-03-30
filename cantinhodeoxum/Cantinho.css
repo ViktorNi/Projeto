@@ -11,13 +11,13 @@ margin: 0px;
 
 body {
 background: black url('https://sm.ign.com/t/ign_br/news/t/this-is-th/this-is-the-stunning-first-image-of-the-cosmos-from-the-jame_qqzx.h960.jpg') center center no-repeat fixed;
-background-size: cover;
+background-size: auto;
+background-attachment: fixed;
+
 }
 
 header {
 background-image: linear-gradient(yellow, #E0C200);
-padding:10px;
-margin: -10px;
 text-shadow: 1em black;
 padding-top: 1em;
 min-width: 350px;
@@ -82,13 +82,13 @@ main {
 background-color: white;
 min-width: 100px;
 max-width: 650px;
-max-width: 700px;
 margin: auto;
 padding: 10px;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
 padding-top: 0px;
 margin-bottom: 14px;
+border: 1px solid black;
 }
 
 main a {
@@ -131,6 +131,10 @@ padding: 8px;
 
 iframe {
 padding: ;
+}
+
+.mapa {
+    position: relative;
 }
 
 
