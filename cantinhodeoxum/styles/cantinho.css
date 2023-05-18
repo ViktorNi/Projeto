@@ -25,7 +25,7 @@
 
     .titulo {
     background-color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #E0C200;
     margin: -8px;
     }
@@ -34,8 +34,8 @@
     main {
     background-color: #E0C200;
     color: white;
-    min-width: 250px;
-    max-width: 350px;
+    min-width: 150px;
+    max-width: 200px;
     margin: auto;
     padding: 10px;
     transition: 3s, 1s;
