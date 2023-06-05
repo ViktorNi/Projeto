@@ -10,7 +10,10 @@
     
     
     body {
-    background-image: url("../images/universe.jpeg");
+    background-image: url("../images/sky-space-dark-galaxy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
 
     header#cabeçalho > h1 {
